@@ -1,4 +1,4 @@
-FROM quartus-base:latest
+FROM embida/quartus-base:latest
 
 RUN apt-get update && \
     apt-get -y install git expect emacs24-nox libtcmalloc-minimal4 locales wget
